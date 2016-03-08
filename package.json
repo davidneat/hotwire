@@ -19,5 +19,8 @@
   "homepage": "https://github.com/davidneat/hotwire#readme",
   "devDependencies": {
     "webpack": "^1.12.14"
+  },
+  "dependencies": {
+    "peerjs": "^0.3.14"
   }
 }
