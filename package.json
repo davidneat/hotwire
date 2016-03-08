@@ -1,0 +1,23 @@
+{
+  "name": "hotwire",
+  "version": "1.0.0",
+  "description": "Share your browser interaction in real time with colleges and friends",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "",
+    "build": "webpack --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidneat/hotwire.git"
+  },
+  "author": "davidneat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidneat/hotwire/issues"
+  },
+  "homepage": "https://github.com/davidneat/hotwire#readme",
+  "devDependencies": {
+    "webpack": "^1.12.14"
+  }
+}
