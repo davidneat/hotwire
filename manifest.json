@@ -15,7 +15,7 @@
     "default_title": "Share your browser interaction"
   },
   "background": {
-    "scripts": ["src/main.js"],
+    "scripts": ["dist/bundle.js"],
     "persistent": false
   },
   "permissions": [
