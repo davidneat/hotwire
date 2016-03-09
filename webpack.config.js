@@ -8,9 +8,11 @@ module.exports = {
     path: path.join(__dirname, 'dist'),
     filename: "bundle.js"
   },
-  module: {
-    loaders: [
-      { test: /\.css$/, loader: "style!css" }
-    ]
-  }
+  module: [
+    {
+      test: /\.js?$/,
+      loaders: ['babel'],
+      include: path.join(__dirname, 'src')
+    }
+  ]
 };
