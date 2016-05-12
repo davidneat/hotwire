@@ -5,6 +5,7 @@
   "main": "src/main.js",
   "scripts": {
     "test": "mocha --reporter dot --recursive --require ./test/globals --compilers js:babel-core/register test",
+    "test-ci": "npm run lint && npm test && npm run build",
     "lint": "eslint src",
     "build": "webpack --progress --colors",
     "watch": "webpack --progress --colors --watch"
