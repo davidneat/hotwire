@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davidneat/hotwire.git"
+    "url": "git+https://github.com/davidspinat/hotwire.git"
   },
-  "author": "davidneat",
+  "author": "davidspinat",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/davidneat/hotwire/issues"
+    "url": "https://github.com/davidspinat/hotwire/issues"
   },
-  "homepage": "https://github.com/davidneat/hotwire#readme",
+  "homepage": "https://github.com/davidspinat/hotwire#readme",
   "devDependencies": {
     "babel-core": "^6.6.5",
     "babel-plugin-espower": "^2.1.2",
