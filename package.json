@@ -10,6 +10,9 @@
     "build": "webpack --progress --colors",
     "watch": "webpack --progress --colors --watch"
   },
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/davidspinat/hotwire.git"
